@@ -1,0 +1,12 @@
+COPYMOD INDD=((IN2,R)),OUTDD=OUT2                                     00069118
+  S M=(ISTLSCAD,                                                       X00069218
+       ISTLSVL8,                                                       X00069318
+       ISTLSCLA,                                                       X00069418
+       ISTLSVL2,                                                       X00070000
+       ISTSDVL1,                                                       X00080000
+       ISTSDCC2,                                                       X00090000
+       ISTSDCLM,                                                       X00100000
+       ISTLSCSA,                                                       X00110000
+       ISTLSVL6,                                                       X00120000
+       ISTTSCX6,                                                       X00130000
+       ISTTSVLH)                            

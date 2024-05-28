@@ -1,0 +1,3 @@
+  COPY INDD=IN1,OUTDD=OUT1                                              00068718
+  S M=(IEANUC01)                                                        00068818
+  COPY INDD=((IN1,R)),OUTDD=IN1         
