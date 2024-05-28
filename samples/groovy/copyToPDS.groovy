@@ -1,7 +1,13 @@
 import com.ibm.dbb.build.CopyToPDS
 println('Copy USS file to PDS as member')
 PDSname = "JEDGING.TEST.PDS"
-def newPDS = new CreatePDS()
-newPDS.setDataset(PDSname)
-newPDS.setOptions("cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)")
-newPDS.execute()
+def copyFile - new CopyToPDS
+copyFile.setDataset(PDSname)
+//
+copyFile.setFile(new File("./SYSIN/file1.txt"))
+copyFile.setMember("FILE1")
+copyFile.execute()
+//
+copyFile.setFile(new File("./SYSIN/file2.txt"))
+copyFile.setMember("FILE2")
+copyFile.execute()

@@ -4,4 +4,5 @@ HLQ = "JEDGING"
 def newPDS = new CreatePDS()
 newPDS.setDataset(HLQ + ".TEST.PDS")
 newPDS.setOptions("cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library)")
+// If PDS exists, the execute does nothing
 newPDS.execute()
