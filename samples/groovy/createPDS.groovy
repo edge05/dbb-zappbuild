@@ -6,4 +6,3 @@ newPDS.setOptions("cyl space(1,1) lrecl(80) dsorg(PO) recfm(F,B) dsntype(library
 newPDS.execute()
 println("--------------------------")
 println("new PDS created")
-println("--------------------------")
